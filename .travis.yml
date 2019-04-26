@@ -13,5 +13,6 @@ before_script:
 - sh -e /etc/init.d/xvfb start
 - sudo apt-get update
 - sudo apt-get install -y libappindicator1 fonts-liberation
-- wget http://dl.google.com/linux/deb/pool/main/g/google-chrome-stable/google-chrome-stable_70.0.3538.77-1_amd64.deb
+- #wget http://dl.google.com/linux/deb/pool/main/g/google-chrome-stable/google-chrome-stable_70.0.3538.77-1_amd64.deb
+- wget http://dl.google.com/linux/deb/pool/main/g/google-chrome-beta/google-chrome-beta_71.0.3578.30-1_amd64.deb
 - sudo dpkg -i google-chrome*.deb
