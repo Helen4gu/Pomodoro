@@ -9,10 +9,6 @@ var webpackConfig = require('../../build/webpack.test.conf')
 //process.env.no_proxy = 'localhost, 0.0.0.0/4201, 0.0.0.0/9876'
 process.env.CHROME_BIN = require('puppeteer').executablePath()
 
-if(process.env.TRAVIS) {
-  configuration.browsers = ['Chrome_travis_ci'];
-}
-
 module.exports = function karmaConfig (config) {
   config.set({
     // to run in additional browsers:
