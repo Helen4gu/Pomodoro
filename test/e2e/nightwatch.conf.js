@@ -33,7 +33,7 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true,
         "chromeOptions": {
-          binary:"D:/Program Files (x86)/Google/Chrome/Application"
+          binary:'D:/Program Files (x86)/Google/Chrome/Application/chrome.exe'
         }
       }
     },
