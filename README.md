@@ -1,5 +1,7 @@
 # pomodoro
 
+[![Build Status](https://travis-ci.org/Helen4gu/Pomodoro.svg?branch=master)](https://travis-ci.org/Helen4gu/Pomodoro)
+
 > A Vue.js project
 
 ## Build Setup
