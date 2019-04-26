@@ -5,7 +5,7 @@ node_js:
 - "8.12.0"
 
 before_script:
-- export CHROME_BIN=/usr/bin/google-chrome
+- export CHROME_BIN="D:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 - sudo apt-get update
 - sudo apt-get install -y libappindicator1 fonts-liberation
 - wget https://dl.google.com/linux/direct/google-chromestable_current_amd64.deb
