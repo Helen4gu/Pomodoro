@@ -33,8 +33,8 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true,
         "chromeOptions": {
+          ////Раскомментировать, если на локальной машине
           //binary:'D:/Program Files (x86)/Google/Chrome/Application/chrome.exe'
-          //"binary": "/usr/bin/chromedriver"
         }
       }
     },
